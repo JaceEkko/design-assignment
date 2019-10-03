@@ -1,0 +1,53 @@
+.TitleDiv{
+  margin-top: 10vmin;
+  line-height: .1vmin;
+  background-color: rgba(242,69,53,.7);
+  display:flex;
+  flex-direction:column;
+}
+.TitleDiv p{
+	margin-top:.5vmin;
+  font-size: 7vmin;
+  text-align: center;
+  color: rgba(255,255,255,1);
+}
+.TitleDiv h1{
+  font-size: 20vmin;
+  text-align: center;
+  color: rgba(254,241,196,1);
+}
+
+.Author{
+  margin: 30vmin 50vmin auto 0px;
+  width:90vmin;
+  /*background-color: rgba(254,241,196,.7);*/
+}
+.Author p{
+  font-size: 10vmin;
+  color:#BF895A;
+  margin-bottom:0px;
+  text-shadow: 1px 1px black
+}
+.Author p + p{
+  margin-top: 0px;
+  font-size: 5vmin;
+  color: rgba(128,133,166,1);
+  text-shadow: 1px 1px black
+}
+
+.JoinUs h2{
+  text-align: center;
+  font-size: 15vmin;
+  color: rgba(255,255,255,1);
+  text-shadow: 1px 1px black
+}
+
+.Attractions{
+
+}
+
+body{
+  background-image: url("images/futureCity.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%, 500%
+}
