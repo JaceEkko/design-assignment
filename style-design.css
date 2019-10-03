@@ -1,45 +1,56 @@
 .TitleDiv{
   margin-top: 10vmin;
-  line-height: .1vmin;
+  /* line-height: .1vmin; */
   background-color: rgba(242,69,53,.7);
   display:flex;
   flex-direction:column;
 }
 .TitleDiv p{
 	margin-top:.5vmin;
-  font-size: 7vmin;
+  font-size: 4vmin;
+  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   color: rgba(255,255,255,1);
+  line-height: .1vmin;
+  letter-spacing: 0.8vmin;
 }
 .TitleDiv h1{
-  font-size: 20vmin;
+  font-size: 15vmin;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   color: rgba(254,241,196,1);
+  margin-bottom: 1px;
+  margin-top: .7vmin;
 }
 
 .Author{
-  margin: 30vmin 50vmin auto 0px;
+  margin: 15vmin 50vmin auto 3vmin;
   width:90vmin;
   /*background-color: rgba(254,241,196,.7);*/
 }
 .Author p{
-  font-size: 10vmin;
-  color:#BF895A;
+  font-size: 5vmin;
+  font-family: 'Quicksand', sans-serif;
+  color:#E8C485;
   margin-bottom:0px;
   text-shadow: 1px 1px black
 }
 .Author p + p{
   margin-top: 0px;
-  font-size: 5vmin;
-  color: rgba(128,133,166,1);
-  text-shadow: 1px 1px black
+  font-size: 3vmin;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #4BCCCB;
+  text-shadow: 1px 1px black;
 }
 
-.JoinUs h2{
+.JoinUs p{
   text-align: center;
-  font-size: 15vmin;
+  font-size: 7vmin;
+  font-family: 'Nunito Sans', sans-serif;
   color: rgba(255,255,255,1);
-  text-shadow: 1px 1px black
+  text-shadow: 1px 1px black;
+  margin-top: 10vmin;
+  letter-spacing: 1.1vmin;
 }
 
 .Attractions{
@@ -49,5 +60,5 @@
 body{
   background-image: url("images/futureCity.jpg");
   background-repeat:no-repeat;
-  background-size: 100%, 500%
+  background-size: 130%, 500%
 }
