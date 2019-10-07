@@ -1,7 +1,6 @@
 .TitleDiv{
   margin-top: 10vmin;
-  /* line-height: .1vmin; */
-  background-color: rgba(242,69,53,.7);
+  background-color: rgba(242,69,53,.7);/*Used rgba so I can affect the alpha values for the background*/
   display:flex;
   flex-direction:column;
 }
@@ -23,19 +22,18 @@
   margin-top: .7vmin;
 }
 
-.Author{
+.Author{/*class in the div that contains the quote and the source*/
   margin: 15vmin 50vmin auto 3vmin;
   width:90vmin;
-  /*background-color: rgba(254,241,196,.7);*/
 }
-.Author p{
+.Author p{ /*Afftect the quote off to the left*/
   font-size: 5vmin;
   font-family: 'Quicksand', sans-serif;
   color:#E8C485;
   margin-bottom:0px;
-  text-shadow: 1px 1px black
+  text-shadow: 1px 1px black; /*Add a shadow so the text is more visible*/
 }
-.Author p + p{
+.Author p + p{ /*Affects the source paragraph after the quote*/
   margin-top: 0px;
   font-size: 3vmin;
   font-family: 'Nunito Sans', sans-serif;
@@ -43,7 +41,7 @@
   text-shadow: 1px 1px black;
 }
 
-.JoinUs p{
+.JoinUs p{ /*Text at the very bottom*/
   text-align: center;
   font-size: 7vmin;
   font-family: 'Nunito Sans', sans-serif;
@@ -51,10 +49,6 @@
   text-shadow: 1px 1px black;
   margin-top: 10vmin;
   letter-spacing: 1.1vmin;
-}
-
-.Attractions{
-
 }
 
 body{
