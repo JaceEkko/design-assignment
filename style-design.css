@@ -53,6 +53,6 @@
 
 body{
   background-image: url("images/futureCity.jpg");
-  background-repeat:repeat-y;
+  background-repeat:no-repeat;
   background-size: 130%, 500%
 }
